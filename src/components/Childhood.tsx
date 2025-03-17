@@ -28,7 +28,7 @@ export default function Childhood() {
             </h2>
 
             <p> This is the original description</p>
-            <StyledImage src = "../../public/child_image.JPEG" alt ="image of me as a child"/>
+            <StyledImage src = "../../public/childPhoto.png" alt ="image of me as a child in china"/>
             <div style = {{display: display}}>
                 <p> This is example explanation for the image</p>
             </div>
