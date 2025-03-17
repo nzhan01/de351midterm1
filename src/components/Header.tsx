@@ -29,15 +29,17 @@ const Styledh1 = styled.h1`
 ;
 
 
+
+
 export default function Header(){
 
     return(
         <StyledHeader>
-            <Styledh1>Nicholas Zhang</Styledh1>
+            <Styledh1>Memory Box</Styledh1>
             <Title>
                 <nav>
                     <StyledLink to={`/`}>Home</StyledLink>
-                    <StyledLink to={`/about`}>About</StyledLink>
+                    <StyledLink to={`https://github.com/nzhan01/de351midterm1`}>Code</StyledLink>
                 </nav>
             </Title>
 

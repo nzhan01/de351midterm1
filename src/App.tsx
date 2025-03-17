@@ -4,10 +4,28 @@ import {createBrowserRouter, Route, RouterProvider, Routes} from "react-router";
 import Home from "./components/Home.tsx";
 import Header from "./components/Header.tsx";
 import styled from "styled-components";
-
+import Childhood from "./components/Childhood.tsx";
 const StyledWrapper = styled.div`
-    
+    display: flex;
+    flex-direction: column;
+
+   
 `
+
+const StyledContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 30px auto;
+    background-color: #f5efff;
+    padding: 30px;
+    border-radius: 6px;
+
+`;
+
+/*
+
+ */
 function Root(){
     return (
         <StyledWrapper>
@@ -15,6 +33,10 @@ function Root(){
             <Routes>
                 <Route path = {`/*`} element ={<Home/>} />
             </Routes>
+
+            <StyledContainer>
+                <Childhood />
+            </StyledContainer>
 
         </StyledWrapper>
     )
