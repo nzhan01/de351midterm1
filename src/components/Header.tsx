@@ -21,6 +21,7 @@ const Title = styled.h2`
 const StyledLink = styled(Link)`
     padding:0.25rem;
     margin: 0.25rem;
+    color: white;
     
 `;
 const Styledh1 = styled.h1`
@@ -39,7 +40,7 @@ export default function Header(){
             <Title>
                 <nav>
                     <StyledLink to={`/`}>Home</StyledLink>
-                    <StyledLink to={`https://github.com/nzhan01/de351midterm1`}>Code</StyledLink>
+                    <StyledLink to={`https://github.com/nzhan01/de351midterm1`}>Source Code</StyledLink>
                 </nav>
             </Title>
 

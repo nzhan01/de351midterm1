@@ -7,6 +7,8 @@ import styled from "styled-components";
 import Childhood from "./components/Childhood.tsx";
 import HighSchool from "./components/HighSchool.tsx";
 import Snowboard from "./components/Snowboard.tsx";
+import Explanation from "./components/Explanation.tsx";
+
 const StyledWrapper = styled.div`
     display: flex;
     flex-direction: column;
@@ -19,7 +21,7 @@ const StyledContainer = styled.div`
     flex-direction: column;
     width: 80%;
     margin: 30px auto;
-    background-color: #f5efff;
+    background-color: floralwhite;
     padding: 30px;
     border-radius: 6px;
 
@@ -48,6 +50,10 @@ function Root(){
                 <br/>
                 <br/>
                 <Snowboard />
+                <br/>
+                <br/>
+                <br/>
+                <Explanation/>
             </StyledContainer>
 
         </StyledWrapper>
