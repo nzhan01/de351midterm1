@@ -33,6 +33,7 @@ function Root(){
             <Header />
             <Routes>
                 <Route path = {`/*`} element ={<Home/>} />
+                <childhood />
             </Routes>
 
             <StyledContainer>
