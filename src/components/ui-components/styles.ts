@@ -15,6 +15,7 @@ const StyledImage = styled.img`
     height: auto;
     display: block;
     margin: auto;
+    padding: calc(1vh);
 `;
 
 export { StyledButton, StyledImage };

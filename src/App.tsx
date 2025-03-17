@@ -5,6 +5,7 @@ import Home from "./components/Home.tsx";
 import Header from "./components/Header.tsx";
 import styled from "styled-components";
 import Childhood from "./components/Childhood.tsx";
+import HighSchool from "./components/HighSchool.tsx";
 const StyledWrapper = styled.div`
     display: flex;
     flex-direction: column;
@@ -36,6 +37,11 @@ function Root(){
 
             <StyledContainer>
                 <Childhood />
+                <br/>
+                <br/>
+                <br/>
+
+                <HighSchool/>
             </StyledContainer>
 
         </StyledWrapper>
