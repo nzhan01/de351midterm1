@@ -6,6 +6,7 @@ import Header from "./components/Header.tsx";
 import styled from "styled-components";
 import Childhood from "./components/Childhood.tsx";
 import HighSchool from "./components/HighSchool.tsx";
+import Snowboard from "./components/Snowboard.tsx";
 const StyledWrapper = styled.div`
     display: flex;
     flex-direction: column;
@@ -33,7 +34,7 @@ function Root(){
             <Header />
             <Routes>
                 <Route path = {`/*`} element ={<Home/>} />
-                <childhood />
+
             </Routes>
 
             <StyledContainer>
@@ -43,6 +44,10 @@ function Root(){
                 <br/>
 
                 <HighSchool/>
+                <br/>
+                <br/>
+                <br/>
+                <Snowboard />
             </StyledContainer>
 
         </StyledWrapper>

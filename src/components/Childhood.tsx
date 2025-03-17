@@ -6,9 +6,9 @@ import {useState} from "react";
 
 
 export default function Childhood() {
-    const [display, setDisplay] = useState('block')
+    const [display, setDisplay] = useState('none')
 
-    const [buttonText, setButtonText] = useState('Hide')
+    const [buttonText, setButtonText] = useState('Show')
 
     function toggle() {
         if (display === 'none') {

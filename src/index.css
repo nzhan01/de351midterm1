@@ -2,7 +2,7 @@
 
     line-height: 1.5;
     font-weight: 400;
-
+    font-size: calc(2px + 2vh);
     color-scheme: light dark;
     color: black;
     background-color: beige;
