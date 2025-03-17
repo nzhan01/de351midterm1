@@ -4,6 +4,7 @@ import {StyledButton, StyledImage} from "./ui-components/styles.ts";
 import {useState} from "react";
 
 
+
 export default function Childhood() {
     const [display, setDisplay] = useState('block')
 
@@ -28,7 +29,12 @@ export default function Childhood() {
             </h2>
 
             <p> This is the original description</p>
-            <StyledImage src = "../../public/childPhoto.png" alt ="image of me as a child in china"/>
+            <StyledImage
+                src = "../../public/childphoto.png"
+                alt ="image of me as a child in china"/>
+
+
+
             <div style = {{display: display}}>
                 <p> This is example explanation for the image</p>
             </div>
