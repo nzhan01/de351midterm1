@@ -30,7 +30,7 @@ export default function Childhood() {
 
             <p> This is the original description</p>
             <StyledImage
-                src = "../../public/childphoto.png"
+                src = "childphoto.png"
                 alt ="image of me as a child in china"/>
 
 
