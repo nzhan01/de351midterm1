@@ -1,5 +1,6 @@
 
 import styled from 'styled-components';
+import { Link } from "react-router";
 
 
 const StyledContainer = styled.div`
@@ -31,7 +32,14 @@ export default function Explanation() {
     return(
         <>
             <StyledContainer>
-                <StyledImage src = "anything_album.png" alt = "album cover of adrienne Lenker's anything album"/>
+                <StyledText>
+                    <p> click the album cover!</p>
+                </StyledText>
+
+                <Link to={"https://open.spotify.com/album/2Qt8Z1LB3Fsrf6nhBNsvUJ"} >
+                    <StyledImage src = "anything_album.png" alt = "album cover of adrienne Lenker's anything album" style = {{width:'105%'}} />
+                </Link>
+
                 <StyledText>
                     <p>
                         No one will ever know you the way you know yourself. it's impossible to translate your entire experience into words or pictures. you could spend a lifetime speaking, writing your emotions,
@@ -51,6 +59,7 @@ export default function Explanation() {
                         But the memories that we actively <i>choose</i> to hold onto are the ones that shape us.
                     </p>
                 </StyledText>
+
                 <StyledImage src = "planet.png" alt = "colorful planet"/>
 
             </StyledContainer>
