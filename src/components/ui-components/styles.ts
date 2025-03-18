@@ -18,4 +18,8 @@ const StyledImage = styled.img`
     padding: calc(1vh);
 `;
 
-export { StyledButton, StyledImage };
+const StyledDescription = styled.p`
+    font-weight: bold;
+`
+
+export { StyledButton, StyledImage , StyledDescription };

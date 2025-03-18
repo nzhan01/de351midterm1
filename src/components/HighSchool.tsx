@@ -1,6 +1,7 @@
 
-import {StyledButton, StyledImage} from "./ui-components/styles.ts";
+import {StyledButton, StyledImage, StyledDescription} from "./ui-components/styles.ts";
 import {useState} from "react";
+
 
 
 
@@ -27,7 +28,8 @@ export default function HighSchool() {
             <h2>
                 <StyledButton onClick={toggle}>{buttonText}</StyledButton>
             </h2>
-            <p> This is an image of me during my high school graduation in May 2022. I am posing with my older brother Jack and my parents</p>
+
+            <StyledDescription>  This is an image of me during my high school graduation in May 2022. I am posing with my older brother Jack and my parents</StyledDescription>
             <StyledImage
                 src = "graduation.png"
                 alt ="image of me after graduating high school"/>

@@ -1,6 +1,6 @@
 
 
-import {StyledButton, StyledImage} from "./ui-components/styles.ts";
+import {StyledButton, StyledImage, StyledDescription} from "./ui-components/styles.ts";
 import {useState} from "react";
 
 
@@ -28,7 +28,7 @@ export default function Childhood() {
                 <StyledButton onClick={toggle}>{buttonText}</StyledButton>
             </h2>
 
-            <p> This is an image of me somewhere between the ages of 3-5. I am posing by the water in a city in China</p>
+            <StyledDescription> This is an image of me somewhere between the ages of 3-5. I am posing by the water in a city in China </StyledDescription>
             <StyledImage
                 src = "childphoto.png"
                 alt ="image of me as a child in china"/>

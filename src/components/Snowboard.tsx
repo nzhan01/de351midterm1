@@ -1,5 +1,5 @@
 
-import {StyledButton, StyledImage} from "./ui-components/styles.ts";
+import {StyledButton, StyledImage, StyledDescription} from "./ui-components/styles.ts";
 import {useState} from "react";
 
 
@@ -27,8 +27,8 @@ export default function Snowboard() {
             <h2>
                 <StyledButton onClick={toggle}>{buttonText}</StyledButton>
             </h2>
-            <p> This is an image of me during Thanksgiving break 2024. I am posing with my friends at Beaver Creek ski resort. My friend Braedon(right side) and
-            I decided to try snowboarding for the first time. </p>
+            <StyledDescription> This is an image of me during Thanksgiving break 2024. I am posing with my friends at Beaver Creek ski resort. My friend Braedon(right side) and
+            I decided to try snowboarding for the first time. </StyledDescription>
             <StyledImage
                 src = "snowboard.png"
                 alt ="image of me as a snowboarding in colorado"/>

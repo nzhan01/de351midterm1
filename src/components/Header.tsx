@@ -21,11 +21,14 @@ const Title = styled.h2`
 const StyledLink = styled(Link)`
     padding:0.25rem;
     margin: 0.25rem;
-    color: white;
+    color: black;
+    font-size: calc(2px + 3vh);
+    background-color: white;
+    border:  1px solid white;
     
 `;
 const Styledh1 = styled.h1`
-    font-size: calc(2px + 5vh);
+    font-size: calc(2px + 8vh);
 `
 ;
 
@@ -39,8 +42,8 @@ export default function Header(){
             <Styledh1>Memory Box</Styledh1>
             <Title>
                 <nav>
-                    <StyledLink to={`/`}>Home</StyledLink>
-                    <StyledLink to={`https://github.com/nzhan01/de351midterm1`}>Source Code</StyledLink>
+                    <StyledLink to={`/`} style={{ textDecoration: 'none' }}>Home</StyledLink>
+                    <StyledLink to={`https://github.com/nzhan01/de351midterm1`} style={{ textDecoration: 'none' }}><b>Source Code Here</b></StyledLink>
                 </nav>
             </Title>
 

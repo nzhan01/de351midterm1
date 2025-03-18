@@ -63,6 +63,19 @@ export default function Explanation() {
                 <StyledImage src = "planet.png" alt = "colorful planet"/>
 
             </StyledContainer>
+            <StyledContainer>
+                <StyledImage src = "achilles_quote.png" alt = "achilles quote" style = {{width:'30%'}}/>
+                <StyledText>
+                    <p>
+
+                        The beauty of memory is that it is not rigid.
+                        How we choose to remember events impact the feelings they evoke.
+                        This framing of memory gives us power over them.
+                        An experience may have been terrible and harmful but we can <i>choose</i> to either forget it or describe it in a different way.
+
+                    </p>
+                </StyledText>
+            </StyledContainer>
         </>
 
 
