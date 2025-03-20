@@ -44,7 +44,7 @@ export default function Explanation() {
                     <p>
                         No one will ever know you the way you know yourself. it's impossible to translate your entire experience into words or pictures. you could spend a lifetime speaking, writing your emotions,
                         but no matter how carefully you choose your words, they’ll always fall short.
-                        Even when someone listens, with all their heart, they could only grasp a fraction of what it truly means to be you. Language is limited, but human experience is infinite.
+                        Even when someone listens with all their heart, they could only grasp a fraction of what it truly means to be you. Language is limited, but human experience is infinite.
                         Every memory you’ve ever had, every feeling, those are all yours.
                     </p>
                 </StyledText>

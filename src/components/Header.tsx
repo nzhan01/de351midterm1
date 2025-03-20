@@ -45,8 +45,9 @@ export default function Header(){
                     <StyledLink to={`/`} style={{ textDecoration: 'none' }}>Home</StyledLink>
                     <StyledLink to={`https://github.com/nzhan01/de351midterm1`} style={{ textDecoration: 'none' }}><b>Source Code Here</b></StyledLink>
                 </nav>
-            </Title>
 
+            </Title>
+        <p>Inspired by what I've been learning in my web-development course, I wanted to apply my new skills in building a website from scratch using HTML, CSS, javascript.</p>
         </StyledHeader>
     );
 }
